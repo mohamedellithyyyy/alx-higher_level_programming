@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-# Using a single loop and print function with string format
-print(''.join(chr(97 + i) for i in range(26)), end='')
+for i in range (ord('a'), ord('z') + 1):
+	print("{:s}".format(chr(i)), end= "")
+print("")
